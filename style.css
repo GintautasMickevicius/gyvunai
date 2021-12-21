@@ -17,7 +17,12 @@ body {
   display: flex;
   justify-content: center;
 }
-
+#deleteBtn {
+  background-image: linear-gradient(-180deg, #7e0606, #e81414);
+  height: 25px;
+  line-height: 25px;
+  border-radius: 20px;
+}
 button {
   margin: 1rem;
   background-color: initial;
@@ -55,4 +60,10 @@ button:hover {
 #root {
     display: flex;
     justify-content: center;
+}
+#root2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1rem 1rem;
 }

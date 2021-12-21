@@ -5,5 +5,5 @@ class Gyvunas {
       this.spalva = spalva;
     }
   }
-
   export default Gyvunas;
+
